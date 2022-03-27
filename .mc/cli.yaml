@@ -1,0 +1,42 @@
+---
+base: ubuntu:20.04
+install:
+
+ # Go download
+ - gzip
+ - curl
+ - tar
+
+ # Go runtime
+ - git
+ - make
+
+ # ebiten
+ #
+ # @see https://ebiten.org/documents/install.html#Debian_/_Ubuntu
+ - gcc
+ - libc6-dev
+ - libglu1-mesa-dev
+ - libgl1-mesa-dev
+ - libxcursor-dev
+ - libxi-dev
+ - libxinerama-dev
+ - libxrandr-dev
+ - libxxf86vm-dev
+ - libasound2-dev
+ - pkg-config
+---
+#!/bin/bash
+
+set -e
+
+
+# Go
+GO_URL='https://go.dev/dl/go1.18.linux-amd64.tar.gz'
+
+curl --location --output '/tmp/go.tar.gz' "${GO_URL}"
+tar --directory '/tmp' -xzf '/tmp/go.tar.gz'
+
+sudo mv '/tmp/go' '/opt/go'
+sudo ln -s '/opt/go/bin/go' '/usr/local/bin/go'
+
