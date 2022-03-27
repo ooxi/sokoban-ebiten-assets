@@ -32,7 +32,7 @@ func TestEmbeddedResources(t *testing.T) {
 	}
 }
 
-func TestLoadAssets(t *testing.T) {
+func TestNewSokobanAssets(t *testing.T) {
 	if _, err := NewSokobanAssets(); nil != err {
 		log.Fatalf("Failed loading assets: %v\n", err)
 	}
