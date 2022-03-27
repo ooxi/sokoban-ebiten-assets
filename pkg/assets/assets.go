@@ -12,6 +12,9 @@ import (
 )
 
 type SokobanAssets struct {
+	TileWidth  int
+	TileHeight int
+
 	ImageCharacter1  *ebiten.Image
 	ImageCharacter2  *ebiten.Image
 	ImageCharacter3  *ebiten.Image
@@ -238,8 +241,11 @@ func loadImageFromResource(resource []byte) (*ebiten.Image, error) {
 }
 
 func NewSokobanAssets() (*SokobanAssets, error) {
-	assets := &SokobanAssets{}
 	var err error = nil
+
+	assets := &SokobanAssets{}
+	assets.TileWidth = 64
+	assets.TileHeight = 64
 
 	// Character
 	if assets.ImageCharacter1, err = loadImageFromResource(resourceCharacter1); nil != err {
