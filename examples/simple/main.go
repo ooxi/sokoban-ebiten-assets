@@ -11,7 +11,9 @@ func (game *Game) Update() error {
 }
 
 func (game *Game) Draw(screen sokoban.Screen) {
+	screen.DrawGroundGravelConcrete(0, 0)
 	screen.DrawCharacter1(2, 3)
+	screen.DrawGroundSand(4, 6)
 }
 
 func (game *Game) Layout() (int, int) {

@@ -21,9 +21,13 @@ func (container *gameContainer) Draw(screen *ebiten.Image) {
 	container.game.Draw(Screen{screen, container.assets})
 }
 
-func (container *gameContainer) Layout(outsideWidth, outsideHeight int) (screenWidth, screenHeight int) {
+func (container *gameContainer) layout() (screenWidth, screenHeight int) {
 	x, y := container.game.Layout()
 	return x * container.assets.TileWidth, y * container.assets.TileHeight
+}
+
+func (container *gameContainer) Layout(outsideWidth, outsideHeight int) (screenWidth, screenHeight int) {
+	return container.layout()
 }
 
 func RunGame(title string, game Game) error {
@@ -33,8 +37,10 @@ func RunGame(title string, game Game) error {
 		return fmt.Errorf("failed loading sokoban assets: %w", err)
 	}
 
-	ebiten.SetWindowTitle(title)
-
 	container := &gameContainer{game, assets}
+
+	ebiten.SetWindowTitle(title)
+	ebiten.SetWindowSize(container.layout())
+
 	return ebiten.RunGame(container)
 }
