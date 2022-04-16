@@ -10,11 +10,13 @@ clean:
 		rm -rf 'target';	\
 	fi
 
+	@mkdir 'target'
+
 
 .PHONY: build
 build:
 	go mod download
-	go build -o 'target/sokoban-ebiten-assets' ./...
+	go build -o 'target' ./...
 
 
 .PHONY: test

@@ -249,210 +249,210 @@ func NewSokobanAssets() (*SokobanAssets, error) {
 
 	// Character
 	if assets.ImageCharacter1, err = loadImageFromResource(resourceCharacter1); nil != err {
-		return nil, fmt.Errorf("Failed loading `Character1': %w'", err)
+		return nil, fmt.Errorf("failed loading `Character1': %w", err)
 	}
 
 	if assets.ImageCharacter2, err = loadImageFromResource(resourceCharacter2); nil != err {
-		return nil, fmt.Errorf("Failed loading `Character2': %w'", err)
+		return nil, fmt.Errorf("failed loading `Character2': %w", err)
 	}
 
 	if assets.ImageCharacter3, err = loadImageFromResource(resourceCharacter3); nil != err {
-		return nil, fmt.Errorf("Failed loading `Character3': %w'", err)
+		return nil, fmt.Errorf("failed loading `Character3': %w", err)
 	}
 
 	if assets.ImageCharacter4, err = loadImageFromResource(resourceCharacter4); nil != err {
-		return nil, fmt.Errorf("Failed loading `Character4': %w'", err)
+		return nil, fmt.Errorf("failed loading `Character4': %w", err)
 	}
 
 	if assets.ImageCharacter5, err = loadImageFromResource(resourceCharacter5); nil != err {
-		return nil, fmt.Errorf("Failed loading `Character5': %w'", err)
+		return nil, fmt.Errorf("failed loading `Character5': %w", err)
 	}
 
 	if assets.ImageCharacter6, err = loadImageFromResource(resourceCharacter6); nil != err {
-		return nil, fmt.Errorf("Failed loading `Character6': %w'", err)
+		return nil, fmt.Errorf("failed loading `Character6': %w", err)
 	}
 
 	if assets.ImageCharacter7, err = loadImageFromResource(resourceCharacter7); nil != err {
-		return nil, fmt.Errorf("Failed loading `Character7': %w'", err)
+		return nil, fmt.Errorf("failed loading `Character7': %w", err)
 	}
 
 	if assets.ImageCharacter8, err = loadImageFromResource(resourceCharacter8); nil != err {
-		return nil, fmt.Errorf("Failed loading `Character8': %w'", err)
+		return nil, fmt.Errorf("failed loading `Character8': %w", err)
 	}
 
 	if assets.ImageCharacter9, err = loadImageFromResource(resourceCharacter9); nil != err {
-		return nil, fmt.Errorf("Failed loading `Character9': %w'", err)
+		return nil, fmt.Errorf("failed loading `Character9': %w", err)
 	}
 
 	if assets.ImageCharacter10, err = loadImageFromResource(resourceCharacter10); nil != err {
-		return nil, fmt.Errorf("Failed loading `Character10': %w'", err)
+		return nil, fmt.Errorf("failed loading `Character10': %w", err)
 	}
 
 	// Crate
 	if assets.ImageCrateBeige, err = loadImageFromResource(resourceCrateBeige); nil != err {
-		return nil, fmt.Errorf("Failed loading `CrateBeige': %w'", err)
+		return nil, fmt.Errorf("failed loading `CrateBeige': %w", err)
 	}
 
 	if assets.ImageCrateBlack, err = loadImageFromResource(resourceCrateBlack); nil != err {
-		return nil, fmt.Errorf("Failed loading `CrateBlack': %w'", err)
+		return nil, fmt.Errorf("failed loading `CrateBlack': %w", err)
 	}
 
 	if assets.ImageCrateBlue, err = loadImageFromResource(resourceCrateBlue); nil != err {
-		return nil, fmt.Errorf("Failed loading `CrateBlue': %w'", err)
+		return nil, fmt.Errorf("failed loading `CrateBlue': %w", err)
 	}
 
 	if assets.ImageCrateBrown, err = loadImageFromResource(resourceCrateBrown); nil != err {
-		return nil, fmt.Errorf("Failed loading `CrateBrown': %w'", err)
+		return nil, fmt.Errorf("failed loading `CrateBrown': %w", err)
 	}
 
 	if assets.ImageCrateGray, err = loadImageFromResource(resourceCrateGray); nil != err {
-		return nil, fmt.Errorf("Failed loading `CrateGray': %w'", err)
+		return nil, fmt.Errorf("failed loading `CrateGray': %w", err)
 	}
 
 	if assets.ImageCratePurple, err = loadImageFromResource(resourceCratePurple); nil != err {
-		return nil, fmt.Errorf("Failed loading `CratePurple': %w'", err)
+		return nil, fmt.Errorf("failed loading `CratePurple': %w", err)
 	}
 
 	if assets.ImageCrateRed, err = loadImageFromResource(resourceCrateRed); nil != err {
-		return nil, fmt.Errorf("Failed loading `CrateRed': %w'", err)
+		return nil, fmt.Errorf("failed loading `CrateRed': %w", err)
 	}
 
 	if assets.ImageCrateYellow, err = loadImageFromResource(resourceCrateYellow); nil != err {
-		return nil, fmt.Errorf("Failed loading `CrateYellow': %w'", err)
+		return nil, fmt.Errorf("failed loading `CrateYellow': %w", err)
 	}
 
 	// CrateDark
 	if assets.ImageCrateDarkBeige, err = loadImageFromResource(resourceCrateDarkBeige); nil != err {
-		return nil, fmt.Errorf("Failed loading `CrateDarkBeige': %w'", err)
+		return nil, fmt.Errorf("failed loading `CrateDarkBeige': %w", err)
 	}
 
 	if assets.ImageCrateDarkBlack, err = loadImageFromResource(resourceCrateDarkBlack); nil != err {
-		return nil, fmt.Errorf("Failed loading `CrateDarkBlack': %w'", err)
+		return nil, fmt.Errorf("failed loading `CrateDarkBlack': %w", err)
 	}
 
 	if assets.ImageCrateDarkBlue, err = loadImageFromResource(resourceCrateDarkBlue); nil != err {
-		return nil, fmt.Errorf("Failed loading `CrateDarkBlue': %w'", err)
+		return nil, fmt.Errorf("failed loading `CrateDarkBlue': %w", err)
 	}
 
 	if assets.ImageCrateDarkBrown, err = loadImageFromResource(resourceCrateDarkBrown); nil != err {
-		return nil, fmt.Errorf("Failed loading `CrateDarkBrown': %w'", err)
+		return nil, fmt.Errorf("failed loading `CrateDarkBrown': %w", err)
 	}
 
 	if assets.ImageCrateDarkGray, err = loadImageFromResource(resourceCrateDarkGray); nil != err {
-		return nil, fmt.Errorf("Failed loading `CrateDarkGray': %w'", err)
+		return nil, fmt.Errorf("failed loading `CrateDarkGray': %w", err)
 	}
 
 	if assets.ImageCrateDarkPurple, err = loadImageFromResource(resourceCrateDarkPurple); nil != err {
-		return nil, fmt.Errorf("Failed loading `CrateDarkPurple': %w'", err)
+		return nil, fmt.Errorf("failed loading `CrateDarkPurple': %w", err)
 	}
 
 	if assets.ImageCrateDarkRed, err = loadImageFromResource(resourceCrateDarkRed); nil != err {
-		return nil, fmt.Errorf("Failed loading `CrateDarkRed': %w'", err)
+		return nil, fmt.Errorf("failed loading `CrateDarkRed': %w", err)
 	}
 
 	if assets.ImageCrateDarkYellow, err = loadImageFromResource(resourceCrateDarkYellow); nil != err {
-		return nil, fmt.Errorf("Failed loading `CrateDarkYellow': %w'", err)
+		return nil, fmt.Errorf("failed loading `CrateDarkYellow': %w", err)
 	}
 
 	// Endpoint
 	if assets.ImageEndpointBeige, err = loadImageFromResource(resourceEndpointBeige); nil != err {
-		return nil, fmt.Errorf("Failed loading `EndpointBeige': %w'", err)
+		return nil, fmt.Errorf("failed loading `EndpointBeige': %w", err)
 	}
 
 	if assets.ImageEndpointBlack, err = loadImageFromResource(resourceEndpointBlack); nil != err {
-		return nil, fmt.Errorf("Failed loading `EndpointBlack': %w'", err)
+		return nil, fmt.Errorf("failed loading `EndpointBlack': %w", err)
 	}
 
 	if assets.ImageEndpointBlue, err = loadImageFromResource(resourceEndpointBlue); nil != err {
-		return nil, fmt.Errorf("Failed loading `EndpointBlue': %w'", err)
+		return nil, fmt.Errorf("failed loading `EndpointBlue': %w", err)
 	}
 
 	if assets.ImageEndpointBrown, err = loadImageFromResource(resourceEndpointBrown); nil != err {
-		return nil, fmt.Errorf("Failed loading `EndpointBrown': %w'", err)
+		return nil, fmt.Errorf("failed loading `EndpointBrown': %w", err)
 	}
 
 	if assets.ImageEndpointGray, err = loadImageFromResource(resourceEndpointGray); nil != err {
-		return nil, fmt.Errorf("Failed loading `EndpointGray': %w'", err)
+		return nil, fmt.Errorf("failed loading `EndpointGray': %w", err)
 	}
 
 	if assets.ImageEndpointPurple, err = loadImageFromResource(resourceEndpointPurple); nil != err {
-		return nil, fmt.Errorf("Failed loading `EndpointPurple': %w'", err)
+		return nil, fmt.Errorf("failed loading `EndpointPurple': %w", err)
 	}
 
 	if assets.ImageEndpointRed, err = loadImageFromResource(resourceEndpointRed); nil != err {
-		return nil, fmt.Errorf("Failed loading `EndpointRed': %w'", err)
+		return nil, fmt.Errorf("failed loading `EndpointRed': %w", err)
 	}
 
 	if assets.ImageEndpointYellow, err = loadImageFromResource(resourceEndpointYellow); nil != err {
-		return nil, fmt.Errorf("Failed loading `EndpointYellow': %w'", err)
+		return nil, fmt.Errorf("failed loading `EndpointYellow': %w", err)
 	}
 
 	// Ground
 	if assets.ImageGroundConcrete, err = loadImageFromResource(resourceGroundConcrete); nil != err {
-		return nil, fmt.Errorf("Failed loading `GroundConcrete': %w'", err)
+		return nil, fmt.Errorf("failed loading `GroundConcrete': %w", err)
 	}
 
 	if assets.ImageGroundDirt, err = loadImageFromResource(resourceGroundDirt); nil != err {
-		return nil, fmt.Errorf("Failed loading `GroundDirt': %w'", err)
+		return nil, fmt.Errorf("failed loading `GroundDirt': %w", err)
 	}
 
 	if assets.ImageGroundGrass, err = loadImageFromResource(resourceGroundGrass); nil != err {
-		return nil, fmt.Errorf("Failed loading `GroundGrass': %w'", err)
+		return nil, fmt.Errorf("failed loading `GroundGrass': %w", err)
 	}
 
 	if assets.ImageGroundSand, err = loadImageFromResource(resourceGroundSand); nil != err {
-		return nil, fmt.Errorf("Failed loading `GroundSand': %w'", err)
+		return nil, fmt.Errorf("failed loading `GroundSand': %w", err)
 	}
 
 	// GroundGravel
 	if assets.ImageGroundGravelConcrete, err = loadImageFromResource(resourceGroundGravelConcrete); nil != err {
-		return nil, fmt.Errorf("Failed loading `GroundGravelConcrete': %w'", err)
+		return nil, fmt.Errorf("failed loading `GroundGravelConcrete': %w", err)
 	}
 
 	if assets.ImageGroundGravelDirt, err = loadImageFromResource(resourceGroundGravelDirt); nil != err {
-		return nil, fmt.Errorf("Failed loading `GroundGravelDirt': %w'", err)
+		return nil, fmt.Errorf("failed loading `GroundGravelDirt': %w", err)
 	}
 
 	if assets.ImageGroundGravelGrass, err = loadImageFromResource(resourceGroundGravelGrass); nil != err {
-		return nil, fmt.Errorf("Failed loading `GroundGravelGrass': %w'", err)
+		return nil, fmt.Errorf("failed loading `GroundGravelGrass': %w", err)
 	}
 
 	if assets.ImageGroundGravelSand, err = loadImageFromResource(resourceGroundGravelSand); nil != err {
-		return nil, fmt.Errorf("Failed loading `GroundGravelSand': %w'", err)
+		return nil, fmt.Errorf("failed loading `GroundGravelSand': %w", err)
 	}
 
 	// Wall
 	if assets.ImageWallBeige, err = loadImageFromResource(resourceWallBeige); nil != err {
-		return nil, fmt.Errorf("Failed loading `WallBeige': %w'", err)
+		return nil, fmt.Errorf("failed loading `WallBeige': %w", err)
 	}
 
 	if assets.ImageWallBlack, err = loadImageFromResource(resourceWallBlack); nil != err {
-		return nil, fmt.Errorf("Failed loading `WallBlack': %w'", err)
+		return nil, fmt.Errorf("failed loading `WallBlack': %w", err)
 	}
 
 	if assets.ImageWallBrown, err = loadImageFromResource(resourceWallBrown); nil != err {
-		return nil, fmt.Errorf("Failed loading `WallBrown': %w'", err)
+		return nil, fmt.Errorf("failed loading `WallBrown': %w", err)
 	}
 
 	if assets.ImageWallGray, err = loadImageFromResource(resourceWallGray); nil != err {
-		return nil, fmt.Errorf("Failed loading `WallGray': %w'", err)
+		return nil, fmt.Errorf("failed loading `WallGray': %w", err)
 	}
 
 	// WallRound
 	if assets.ImageWallRoundBeige, err = loadImageFromResource(resourceWallRoundBeige); nil != err {
-		return nil, fmt.Errorf("Failed loading `WallRoundBeige': %w'", err)
+		return nil, fmt.Errorf("failed loading `WallRoundBeige': %w", err)
 	}
 
 	if assets.ImageWallRoundBlack, err = loadImageFromResource(resourceWallRoundBlack); nil != err {
-		return nil, fmt.Errorf("Failed loading `WallRoundBlack': %w'", err)
+		return nil, fmt.Errorf("failed loading `WallRoundBlack': %w", err)
 	}
 
 	if assets.ImageWallRoundBrown, err = loadImageFromResource(resourceWallRoundBrown); nil != err {
-		return nil, fmt.Errorf("Failed loading `WallRoundBrown': %w'", err)
+		return nil, fmt.Errorf("failed loading `WallRoundBrown': %w", err)
 	}
 
 	if assets.ImageWallRoundGray, err = loadImageFromResource(resourceWallRoundGray); nil != err {
-		return nil, fmt.Errorf("Failed loading `WallRoundGray': %w'", err)
+		return nil, fmt.Errorf("failed loading `WallRoundGray': %w", err)
 	}
 
 	return assets, nil
